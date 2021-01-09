@@ -3,7 +3,7 @@ Este repositório consiste em criar uma função que receba um valor, sendo ele 
 
 # Telas
 ## Tela de início
-![tela de início](files/home.png)
+![tela de início](files/homepage.png)
 
 ## Tela com soma
 ![tela com soma](files/soma.png)
