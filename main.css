@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #E3E7AF;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+}
+
+input, button {
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+input {
+  height: 3rem;
+  width: 18rem;
+  text-align: center;
+  font-size: 2rem;
+  border: none;
+  background-color: #EFF1C5;
+}
+
+button {
+  height: 2rem;
+  width: 5rem;
+  border: none;
+  background-color: #A2A77F;
+  font-weight: bold;
+}
+
+#total, #error {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#total {
+  width: 5rem;
+  border-radius: 1rem;
+  background-color: #002E2C;
+  color: white;
+}
+
+#error {
+  color: red;
+}
